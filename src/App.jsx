@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, BrowserRouter } from "react-router-dom";
+import { Route, BrowserRouter, NavLink } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
 import WallInsulation from "./components/wall-insulation/WallInsulation";
@@ -15,12 +15,12 @@ function App() {
         <section className="menu-wrapper">
           <h2>Menu</h2>
           <nav className="menu-nav">
-            <a className="app-link" href="/" rel="noopener noreferrer">
+            <NavLink className="app-link" to="/" rel="noopener noreferrer">
               Home
-            </a>
-            <a className="app-link" href="/wall-insulation" rel="noopener noreferrer">
+            </NavLink>
+            <NavLink className="app-link" to="/wall-insulation" rel="noopener noreferrer">
               Wall Insulation
-            </a>
+            </NavLink>
           </nav>
         </section>
         <section className="main-wrapper">
