@@ -15,10 +15,10 @@ function App() {
         <section className="menu-wrapper">
           <h2>Menu</h2>
           <nav className="menu-nav">
-            <NavLink className="app-link" to="/" rel="noopener noreferrer">
+            <NavLink className="app-link" activeClassName="app-link__active" to="/home" rel="noopener noreferrer">
               Home
             </NavLink>
-            <NavLink className="app-link" to="/wall-insulation" rel="noopener noreferrer">
+            <NavLink className="app-link" activeClassName="app-link__active" to="/wall-insulation" rel="noopener noreferrer">
               Wall Insulation
             </NavLink>
           </nav>

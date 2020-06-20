@@ -44,8 +44,13 @@
 }
 
 .menu-wrapper .menu-nav .app-link {
+  color: brown;
   font-size: calc(10px + 1vmin);
   padding-right: 10px;
+}
+
+.menu-wrapper .menu-nav .app-link__active {
+  color: #61dafb;
 }
 
 @keyframes app-logo-spin {
