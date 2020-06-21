@@ -3,6 +3,7 @@ import { Route, BrowserRouter, NavLink } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
 import WallInsulation from "./components/wall-insulation/WallInsulation";
+import Home from "./components/home/Home";
 
 function App() {
   return (
@@ -24,7 +25,11 @@ function App() {
           </nav>
         </section>
         <section className="main-wrapper">
-          <Route path="/wall-insulation" component={WallInsulation} />
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/home" component={Home} />
+          <Route path="/wall-insulation"  render={() => <WallInsulation />} />
         </section>
       </div>
     </BrowserRouter>
