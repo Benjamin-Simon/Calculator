@@ -13,7 +13,7 @@ function App() {
           <p>Home</p>
         </header>
         <section className="menu-wrapper">
-          <h2>Menu</h2>
+          <h2 className="menu-heading">Menu</h2>
           <nav className="menu-nav">
             <NavLink className="app-link" activeClassName="app-link__active" to="/home" rel="noopener noreferrer">
               Home
