@@ -1,0 +1,33 @@
+.wrapper {
+  border: 2px solid bisque;
+  padding-bottom: 10px;
+}
+
+.heading {
+  padding: 5px;
+  font-size: calc(10px + 3vmin);
+}
+
+.content {
+  padding: 5px;
+  font-size: calc(10px + 1vmin);
+}
+
+.btnAddWall {
+  padding: 5px 10px;
+  border-color: brown;
+  background-color: brown;
+}
+
+.btnAddWall:hover {
+  background-color: burlywood;
+}
+
+.btnAddWall:focus {
+  background-color: burlywood;
+}
+
+.btnLabel {
+  padding: 5px 10px;
+  padding-left: 5px;
+}
